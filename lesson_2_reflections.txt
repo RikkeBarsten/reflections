@@ -7,3 +7,18 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 The staging area lets you select what parts of a working directory to commit to 
 the repository. It offers flexibility when working with versions.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add files to staging area, then run git diff, to check out all the diffs, 
+and make sure that they are a logical change.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+Branches are helpful, when I want to test some experimental feature. The branch 
+could keep my master 'clean' while I'm working on the experimental feature. I 
+could make code improvements on master branch, while working on the experimental 
+feature.
+
+How do diagrams help you visualize the branch structure?
+Diagrams shows the commits and their parent commits, so that it is easy to see 
+if the branches, and where they parted.
