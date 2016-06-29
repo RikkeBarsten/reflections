@@ -1,35 +1,35 @@
 What happens when you initialize a repository? Why do you need to do it?
-When a repository is initialized, a file is created, that keep track of the history 
-of the repository. If the repository is not initialized, I won't be able to make 
+When a repository is initialized, a file is created, that keeps track of the history
+of the repository. If the repository is not initialized, I won't be able to make
 commits.
 
-How is the staging area different from the working directory and the repository? 
+How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-The staging area lets you select what parts of a working directory to commit to 
+The staging area lets you select what parts of a working directory to commit to
 the repository. It offers flexibility when working with versions.
 
 How can you use the staging area to make sure you have one commit per logical change?
-You can add files to staging area, then run git diff, to check out all the diffs, 
+You can add files to staging area, then run git diff, to check out all the diffs,
 and make sure that they are a logical change.
 
-What are some situations when branches would be helpful in keeping your history 
+What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-Branches are helpful, when I want to test some experimental feature. The branch 
-could keep my master 'clean' while I'm working on the experimental feature. I 
-could make code improvements on master branch, while working on the experimental 
+Branches are helpful, when I want to test some experimental feature. The branch
+could keep my master 'clean' while I'm working on the experimental feature. I
+could make code improvements on master branch, while working on the experimental
 feature.
 
 How do diagrams help you visualize the branch structure?
-Diagrams shows the commits and their parent commits, so that it is easy to see 
+Diagrams shows the commits and their parent commits, so that it is easy to see
 if the branches, and where they parted.
 
-What is the result of merging two branches together? Why do we represent it in 
+What is the result of merging two branches together? Why do we represent it in
 a diagram the way we do?
-The result is, that all the changes from both branches are saved in the same 
+The result is, that all the changes from both branches are saved in the same
 file. The diagram representation helps us see how this affect the commit structure.
 
-What are the pros and cons of Git's automatic merging vs. always doin merges 
+What are the pros and cons of Git's automatic merging vs. always doin merges
 manually?
-Automatic merging is very fast, and is done following strict rules. When it 
-succeeds, you know there weren't any conflicts. Doing merges manually will 
+Automatic merging is very fast, and is done following strict rules. When it
+succeeds, you know there weren't any conflicts. Doing merges manually will
 take a lot of time, and is error prone.
