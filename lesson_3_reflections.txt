@@ -19,3 +19,10 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 You can use git status and git diff on the local copy of the remote, and use
 that copy to merge into your local master when needed.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+I could send the files zipped in email, or put the zip-file online. The
+collaborator could then review the files. It would be easier not having to
+create branches and pull requests, but harder to know which version is the
+working version, and harder to work simultaneously on the same project.
