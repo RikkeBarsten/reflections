@@ -26,3 +26,11 @@ I could send the files zipped in email, or put the zip-file online. The
 collaborator could then review the files. It would be easier not having to
 create branches and pull requests, but harder to know which version is the
 working version, and harder to work simultaneously on the same project.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+I would use a separate branch when making experimental changes, and want to
+collaborate with others, to make sure the changes will not brake the master. In
+that case, I would always have a working master of my project. If I'm working
+alone on my master, and am making smaller changes, I would do this directly in
+master. If something goes wrong, I can go back to an earlier commit.
